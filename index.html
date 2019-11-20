@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Run, monkey, run!</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div id="world" />
+    <div id="gameoverInstructions">
+      Game Over
+    </div>
+    <div id="record">
+      Congratulations!! Your record is:
+    </div>
+    <div id="recordValue">
+    </div>
+    <div id="countdown">5</div>
+    <div id="Restart">
+      Click to restart
+    </div>
+
+    <div id="dist">
+      <div class="label">distance</div>
+      <div id="distValue">000</div>
+    </div>
+
+    <div id="life">
+      <div class="label">lives</div>
+      <div id="lifeValue">00</div>
+    </div>
+
+    <div>
+      <button id="Start"><span>Ready to start!</span></button>
+    </div>
+
+    <div id="WelcomeMessage">WELCOME TO THE 'RUN, MONKEY, RUN' GAME!</div>
+    <img id="picture" aligh=LEFT src="assets/monkey.png"/>
+    <div id="instructions">Instructions: press the spacebar to jump, press it twice to jump higher,
+    <br> avoid palm trees, if you touch them the game is over. <br><br>Try to get as far as you can, <br> collect
+        bananas, they give you a bonus on the final distance <br> collect also apples, they give you extra lives!
+    <br><br>If you want to change your visual perspective press c. </div>
+
+    <script src='js/three.js'></script>
+    <script src="js/ProjectIG.js"></script>
+
+  </body>
+
+</html>
